@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* Comman classes and id's */
+
+.inner {
+    max-width: 1265px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#text-red {
+    color: #FF0000;
+
+}
+
+#text-green {
+    color: #14FF00;
+
+}
+
+
+#center-content {
+    text-align: center;
+    display: block;
+}
+
+
+
+/* Header-start */
+
+header {
+    background-color: #081737;
+    width: 100%;
+}
+
+
+
+header .inner nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px 40px;
+
+}
+
+header .inner nav .logo-section {
+    width: 25%;
+
+}
+
+header .inner nav .logo-section img {
+    width: 100%;
+
+}
+
+header .inner nav .menu-links {
+    width: 65%;
+
+
+}
+
+header .inner nav .menu-links ul {
+    max-width: 480px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: normal;
+
+
+}
+
+header .inner nav .menu-links .hamburger-menu {
+    display: none;
+}
+
+header .inner nav .menu-links ul li a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+header .inner nav .menu-links ul li a:hover {
+    color: #f7bf07;
+}
+
+header .inner nav .search-icon {
+    width: 10%;
+}
+
+/* Header-end */
+
+
+/* Hero-section start */
+
+.hero-section {
+    background-color: #041334;
+    padding: 50px 0;
+}
+
+.hero-section .headings h3 {
+    color: #ffff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.hero-section .headings h5 {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.hero-section .flex-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    color: #ffff;
+    position: relative;
+    padding: 20px;
+}
+
+.hero-section .flex-box hr{
+    display: none;
+}
+
+.hero-section .flex-box h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.hero-section .flex-box ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.hero-section .flex-box ul li {
+    margin-top: 30px;
+}
+
+.hero-section .flex-box .name-section {
+    width: 25%;
+}
+
+.hero-section .flex-box .price-section {
+    width: 15%;
+}
+
+.hero-section .flex-box .changes-section {
+    width: 15%;
+
+}
+
+.hero-section .flex-box .chart-section {
+    width: 20%;
+
+}
+
+.hero-section .flex-box .marketcap-section {
+    width: 25%;
+
+}
+
+.hero-section .flex-box .name-section ul li {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.hero-section .flex-box .name-section ul li img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.hero-section .flex-box .name-section ul li h3 {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.hero-section .flex-box .name-section ul li span {
+    color: #858585;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-section .flex-box #digit {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-section .flex-box .chart-section img {
+    width: 58px;
+    height: 24px;
+
+}
+
+.hero-section button {
+    width: 200px;
+    height: 60px;
+    margin-top: 70px;
+    border-radius: 8px;
+    background: linear-gradient(#3DD8EE, #0997E8);
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffff;
+    border: 0;
+
+}
+/* Hero-section end */
+
+/* Map-section start */
+.map-section{
+    padding: 50px 0;
+     background: #00092A;
+     color:#ffff;
+}
+
+.map-section .map{
+    background-image: url("../images/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+
+.map-section .info{
+    width: 45%;
+}
+
+.map-section .info h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.map-section .info p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+.map-section .info section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.map-section .info section .icon{
+    width: 80px;
+    height: 80px;
+    background-color: #0F1535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+map-section .info  .text-data{
+    width: 40%;
+    background-color: #FF0000;
+}
+/* Map-section end */
+
+
+
+
+
+
+
+
+/* Media-query-start */
+@media only screen and (max-width:1000px) {
+
+    /* Header-start */
+
+    header .inner {
+        width: 100%;
+    }
+
+    /* header .inner nav {
+        padding: 10px 20px;
+    
+    } */
+
+    header .inner nav .logo-section {
+        width: 20%;
+
+    }
+
+    header .inner nav .menu-links {
+        width: 50%;
+
+    }
+
+    header .inner nav .menu-links ul {
+        max-width: 100%;
+        margin-top: -5px;
+    }
+
+    header .inner nav .menu-links ul li a {
+        color: #fff;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22.5px;
+        text-decoration: none;
+
+    }
+
+    header .inner nav .menu-links ul li a:hover {
+        color: #f7bf07;
+    }
+
+    header .inner nav .search-icon {
+        width: 10%;
+    }
+
+    header .inner nav .search-icon img {
+        width: 30%;
+    }
+
+
+    /* Header-end */
+
+    /* Hero-section start */
+
+    .hero-section .headings h5 {
+        color: #ffff;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .hero-section .flex-box {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .hero-section .flex-box h2 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .hero-section .flex-box ul {
+        margin-top: 20px;
+    }
+
+    .hero-section .flex-box ul li {
+        margin-top: 30px;
+    }
+
+    .hero-section .flex-box .name-section {
+        width: 25%;
+    }
+
+    .hero-section .flex-box .price-section {
+        width: 15%;
+    }
+
+    .hero-section .flex-box .changes-section {
+        width: 15%;
+
+    }
+
+    .hero-section .flex-box .chart-section {
+        width: 20%;
+
+    }
+
+    .hero-section .flex-box .market-cap-section {
+        width: 25%;
+
+    }
+
+    .hero-section .flex-box .name-section ul li {
+        width: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 27px;
+
+
+    }
+
+    .hero-section .flex-box .name-section ul li h3 {
+        font-size: 16px;
+    }
+
+    .hero-section .flex-box .name-section ul li span {
+
+        font-size: 14px;
+
+    }
+
+    .hero-section .flex-box #digit {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .hero-section .flex-box .chart-section img {
+        width: 58px;
+        height: 21px;
+
+    }
+
+    .hero-section button {
+        width: 200px;
+        height: 60px;
+        margin-top: 70px;
+        border-radius: 8px;
+        background: linear-gradient(#3DD8EE, #0997E8);
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 700;
+        color: #ffff;
+        border: 0;
+
+    }
+
+
+    /* Hero-section end */
+
+}
+
+
+
+/* Second-media-query-start */
+
+@media only screen and (max-width:768px) {
+
+    header .inner nav {
+        padding: 0;
+        align-items: center;
+
+    }
+
+    header .inner nav .logo-section {
+        width: 50%;
+
+    }
+
+    header .inner nav .logo-section img {
+        width: 100%;
+
+    }
+
+    header .inner nav .menu-links {
+        width: 20%;
+        text-align: center;
+
+
+    }
+
+    header .inner nav .menu-links ul {
+        display: none;
+        /* max-width: 480px;
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items:normal; */
+
+
+    }
+
+    header .inner nav .menu-links .hamburger-menu {
+        display: block;
+    }
+
+    header .inner nav .menu-links .hamburger-menu a {
+        color: #ffff;
+        width: 20px;
+        margin: 0 auto;
+        text-decoration: none;
+
+    }
+
+    header .inner nav .menu-links .hamburger-menu a:hover {
+        color: #f7bf07;
+    }
+
+    header .inner nav .menu-links ul li a {
+        color: #fff;
+        font-weight: 500;
+        font-size: 15px;
+        text-decoration: none;
+
+    }
+
+    header .inner nav .menu-links ul li a:hover {
+        color: #f7bf07;
+    }
+
+    header .inner nav .search-icon {
+        width: 20%;
+    }
+
+    /* Hero-section start */
+
+    .hero-section {
+        padding: 20px 0;
+    }
+
+    .hero-section .headings h3 {
+        font-size: 20px;
+    }
+
+    .hero-section .headings h5 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .hero-section .flex-box hr{
+        display: block;
+        width: 100%;
+        border: 0;
+        height: 2px;
+        background-color: #ffff;
+        margin-top: 30px;
+    }
+
+    .hero-section .flex-box h2 {
+        font-size: 30px;
+        margin-top: 20px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+
+   
+
+    .hero-section .flex-box ul {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .hero-section .flex-box ul li {
+        margin-top: 20px;
+    }
+
+    .hero-section .flex-box .name-section {
+        width: 100%;
+    }
+
+    .hero-section .flex-box .price-section {
+        width: 100%;
+    }
+
+    .hero-section .flex-box .changes-section {
+        width: 100%;
+
+    }
+
+    .hero-section .flex-box .chart-section {
+        width: 100%;
+
+    }
+
+    .hero-section .flex-box .marketcap-section {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .hero-section .flex-box .name-section ul li {
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+
+    .hero-section .flex-box .chart-section img {
+        width: 58px;
+        height: 24px;
+
+    }
+
+    .hero-section button {
+        width: 200px;
+        height: 60px;
+        margin-top: 70px;
+        border-radius: 8px;
+        background: linear-gradient(#3DD8EE, #0997E8);
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 700;
+        color: #ffff;
+        border: 0;
+
+    }
+
+
+    /* Hero-section end */
+
+
+
+
+}
+
+
+
+
+
+/* Second-media-query-end */
+
+
+/*
+light-blue:#041334;
+green:#0fb410;
+
+red:#bf040d;
+
+
+
+
+*/
